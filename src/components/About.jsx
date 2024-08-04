@@ -16,7 +16,7 @@ const ServiceCard = ({ index, title, icon }) => {
           scale: 1,
           speed: 450,
         }}
-        className="bg-jetLight rounded-[20px] py-5 px-12 min-h-[280px] flex justify-evenly items-center flex-col">
+        className="transition ease-in delay-150 hover:-translate-y-1 hover:scale-110 bg-jetLight rounded-[20px] py-5 px-12 min-h-[280px] flex justify-evenly items-center flex-col">
         <img src={icon} alt={title} className="w-16 h-16 object-contain" />
         <h3 className="text-taupe text-[18px] font-bold text-center">
           {title}

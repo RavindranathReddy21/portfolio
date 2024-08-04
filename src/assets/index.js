@@ -5,6 +5,7 @@ import worldmap from './backgrounds/world-map.png';
 
 import logo from './logo/github.png';
 import leetcode from './logo/leetcode.png';
+import linkedin from './logo/linkedin.png'
 
 import backend from './icons/backend.png';
 import dsa from './icons/dsa.png';
@@ -106,5 +107,6 @@ export {
   mongodb,
   mysql,
   fakenews,
-  paytm
+  paytm,
+  linkedin
 };

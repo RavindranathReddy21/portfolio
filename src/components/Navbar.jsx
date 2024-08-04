@@ -20,11 +20,7 @@ const Navbar = () => {
             setActive('');
             window.open(repo, '_blank');
           }}>
-          <img
-            src={logo} // your logo comes here
-            alt="logo"
-            className="sm:w-[50px] sm:h-[50px] w-[45px] h-[45px] object-contain hover:opacity-[0.9] transition ease-in-out delay-150"
-          />
+          
         </Link>
         <ul className="list-none hidden sm:flex flex-row gap-14 mt-2">
           {navLinks.map((nav) => (
