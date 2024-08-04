@@ -39,13 +39,13 @@ const Hero = () => {
               className={`${styles.heroHeadText} text-eerieBlack font-poppins uppercase`}>
               Hi, I'm{' '}
               <span
-                className="sm:text-battleGray sm:text-[80px] 
+                className="sm:text-battleGray sm:text-[70px] 
                 text-eerieBlack text-[50px] font-mova
                 font-extrabold uppercase">
                 Ravindranath
               </span>
             </h1>
-            <p className={`${styles.heroSubText} mt-2 text-eerieBlack sm:text-[70px]`}>
+            <p className={`${styles.heroSubText} mt-2 text-eerieBlack sm:text-[60px]`}>
             Welcome to my digital playground.<br className="sm:block hidden" />
             Explore my projects, creativity, and achievements.
             </p>
