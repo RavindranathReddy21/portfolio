@@ -17,7 +17,7 @@ const App = () => {
   }, [])
   return (
     <BrowserRouter>
-      <div className="relative z-0">
+      <div className="relative z-0 w-full h-42 overflow-y-scroll no-scrollbar">
         <div>
           <Navbar />
           <Hero />
