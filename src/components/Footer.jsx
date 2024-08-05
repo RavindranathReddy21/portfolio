@@ -20,7 +20,7 @@ const Footer = () => {
                 <img
                     src={logo} // your logo comes here
                     alt="logo"
-                    className="sm:w-[50px] sm:h-[40px] w-[45px] h-[45px] object-contain hover:opacity-[0.9] transition ease-in-out delay-150 ml-16"
+                    className="sm:w-[50px] sm:h-[40px] w-[45px] h-[45px] object-contain hover:opacity-[0.9] transition ease-in-out delay-150 ml-16 cursor-pointer"
 
                 />
             </div>
@@ -32,7 +32,7 @@ const Footer = () => {
                 <img
                     src={linkedin} // your logo comes here
                     alt="logo"
-                    className="sm:w-[50px] sm:h-[40px] w-[45px] h-[45px] object-contain hover:opacity-[0.9] transition ease-in-out delay-150 ml-8"
+                    className="sm:w-[50px] sm:h-[40px] w-[45px] h-[45px] object-contain hover:opacity-[0.9] transition ease-in-out delay-150 ml-8 cursor-pointer"
                 />
             </div>
 
