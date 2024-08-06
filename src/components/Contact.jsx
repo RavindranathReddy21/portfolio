@@ -30,7 +30,7 @@ const Contact = () => {
     emailjs
       .send(
         'service_pupvc8j', // paste your ServiceID here (you'll get one when your service is created).
-        'template_55l2knb', // paste your TemplateID here (you'll find it under email templates).
+        'template_za77avc', // paste your TemplateID here (you'll find it under email templates).
         {
           from_name: form.name,
           to_name: 'K Ravindranath Reddy', // put your name here.
