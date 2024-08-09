@@ -37,7 +37,7 @@ const Navbar = () => {
         </ul>
 
         {/* mobile */}
-        <div className="sm:hidden flex flex-1 w-screen justify-end items-center">
+        <div className="sm:hidden flex flex-1 w-screen justify-end items-center sm:text-[20px]">
           {toggle ? (
             <div
               className={`p-6 bg-flashWhite opacity-[0.98] absolute 
@@ -54,21 +54,23 @@ const Navbar = () => {
               </div>
               <ul
                 className="list-none flex flex-col -gap-[1rem] 
-                items-start justify-end mt-[10rem] -ml-[35px]">
+                items-start justify-end ml-[30px] text-[20px]">
                 {navLinks.map((nav) => (
+                  <div className="flex flex-col justify-between">
                   <li
                     id={nav.id}
                     key={nav.id}
                     className={`${
                       active === nav.title ? 'text-french' : 'text-eerieBlack'
-                    } text-[88px] font-bold font-arenq 
+                    } text-[20px] font-bold font-arenq 
                       uppercase tracking-[1px] cursor-pointer`}
                     onClick={() => {
                       setToggle(!toggle);
                       setActive(nav.title);
                     }}>
-                    <a href={`#${nav.id}`}>{nav.title}</a>
+                        <a className="text-[40px]"href={`#${nav.id}`}>{nav.title}</a>
                   </li>
+                      </div>
                 ))}
               </ul>
             </div>
