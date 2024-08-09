@@ -169,7 +169,7 @@ const projects = [
   
   {
     id: 'paytm',
-    name: 'Paytm Wallet Clone',
+    name: 'PayEase',
     description:
       'A paytm wallet clone with a robust backend using the MERN stack. Leveraged MongoDB, Express.js,React.js, and Node.js to create a scalable architecture.',
     tags: [
